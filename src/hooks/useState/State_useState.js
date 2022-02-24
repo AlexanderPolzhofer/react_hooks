@@ -14,7 +14,7 @@ function StateTutorial() {
     }
 
     const handleSubmit = (event) => {
-        event.preventDefault();
+        event.preventDefault()
     }
 
     return (
@@ -26,7 +26,7 @@ function StateTutorial() {
             <form>
                 <input type='text' onChange={(event) => handleChange(event)} label='input' />
 
-                <button type='submit' onSubmit={() => handleSubmit()}>Submit</button>
+                <button type='submit' onSubmit={handleSubmit}>Submit</button>
             </form>
 
             {inputValue}
