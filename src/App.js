@@ -5,11 +5,13 @@ import ReducerTutorial from './hooks/useReducer/Reducer_useReducer';
 import RefTutorial from './hooks/useRef/Ref_useRef';
 import ImperativeHandle from './hooks/useImperativeHandle/ImperativeHandle_useImperativeHandle';
 import StateHook from './hooks/useState/State_useState';
+import ContextTutorial from './hooks/useContext/Context_useContext';
 
 function App() {
   return (
     <div className="App">
-      <ImperativeHandle/>
+      <ContextTutorial />
+      <ImperativeHandle />
       <LayoutEffectTutorial />
       <RefTutorial />
       <StateHook />
