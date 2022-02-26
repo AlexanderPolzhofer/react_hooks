@@ -2,6 +2,10 @@ import React, { useState, useEffect, useMemo } from 'react';
 
 function MemoTutorial() {
 
+    //useMemo hook stores a value - useCallback is similar to the useMemo hook but it can store a function instead
+
+    //if we need to access a value we will choose the useMemo hook, if we need to access a function we will use the useCallback hook
+
     const [data, setData] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
 
